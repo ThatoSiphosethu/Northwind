@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kbiY/aVklMdeG2QmSiPYvV4/JLbvjCzmhwQODKDCuKLGiZGd87uRmWpMAW+JM48Vk+ZMyrG2h6ulLcSEahBGSQ==",
+  "dgSpecHash": "sG+hTmjPxihq0VMQcdHEu6kHudhaNia/zjiEyMq1lvUQ0JZCaeeTP0SimG4Wksh6TCr/Q/FU2Dzt3CY0gjtxBg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
+  "projectFilePath": "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owner\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

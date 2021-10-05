@@ -1,0 +1,18 @@
+@using Northwind.Models
+@model IEnumerable<Discount>
+
+@foreach (Discount discount in Model)
+{
+    <div class="row justify-content-md-center">
+        <a class=" col-3 list-group-item list-group-item-secondary">
+        @discount.Title
+        </a>
+        <a class=" col-3 list-group-item list-group-item-secondary">
+        @discount.Description
+        </a>
+        <a class="col-3 list-group-item list-group-item-secondary">
+        @discount.DiscountPercent
+        </a>
+    </div>
+  }
+   

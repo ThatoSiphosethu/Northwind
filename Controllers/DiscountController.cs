@@ -7,8 +7,10 @@ namespace Northwind.Controllers
 {
     public class DiscountController : Controller
     {
-        // private NorthwindContext _NorthwindContext;
+        private NorthwindContext _NorthwindContext;
 
-        // public ProductController(NorthwindContext db) => _NorthwindContext = db;
+        public DiscountController(NorthwindContext db) => _NorthwindContext = db;
+
+        public ActionResult Product() => View(_NorthwindContext.Discounts);
     }
 }

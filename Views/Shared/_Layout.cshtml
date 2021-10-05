@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+<link rel"stylesheet" href="~/css/client.css" />
 
 </head>
 <body>
@@ -39,7 +40,7 @@
                                 <a class="dropdown-item" asp-controller="Product" asp-action="Category"><i class="fab fa-safari"></i> Browse Categories</a>
                                 <a class="dropdown-item" href="#"><i class="fas fa-search-plus"></i> Product Search</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" ></i> Current Discounts</a>
+                                <a class="dropdown-item" asp-controller="Product" asp-action="Discount"  class="dropdown-item"></i> Current Discounts</a>
                             </div>                       
                         </li>
                         <li class="nav-item">

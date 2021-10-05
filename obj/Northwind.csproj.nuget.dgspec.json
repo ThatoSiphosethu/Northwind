@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj": {}
+    "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj": {
+    "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
         "projectName": "Northwind",
-        "projectPath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
+        "projectPath": "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Owner\\source\\repos\\Northwind\\obj\\",
+        "outputPath": "C:\\Users\\Owner\\source\\repos\\Northwind\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
