@@ -14,16 +14,5 @@ namespace Northwind.Controllers
 
         public ActionResult Index() => View(_northwindContext.Discounts.Where(d => d.StartTime <= DateTime.Now && d.EndTime > DateTime.Now).Take(3));
 
-        // public IActionResult(int id){
-        //     //show the toast
-        //     {
-        //         return showToast();
-        //     }
-        // }
-        
-    }
-
-    
-
-    
+    } 
 }

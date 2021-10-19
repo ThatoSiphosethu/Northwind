@@ -1,6 +1,10 @@
 @using Northwind.Models
 @model IEnumerable<Discount>
 
+<div class="container shadow rounded bg-light p-4 my-4">
+<h2 class="p-1 m-1">Product Discount</h2>
+<div class="dropdown-divider pb-4"></div>
+
 @foreach (Discount discount in Model)
 {
     <div class="row justify-content-md-center">

@@ -69,3 +69,4 @@ C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Northwind.pdb
 C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Northwind.genruntimeconfig.cache
 C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Razor\Views\Product\Category.cshtml.g.cs
 C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Razor\Views\Product\Discount.cshtml.g.cs
