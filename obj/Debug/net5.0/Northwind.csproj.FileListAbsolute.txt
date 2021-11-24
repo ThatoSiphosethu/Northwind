@@ -17,9 +17,14 @@ C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\ref\Northwind.dll
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Northwind.pdb
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Northwind.Views.pdb
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\Owner\source\repos\Northwind\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -55,6 +60,7 @@ C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\scopedcss\bundle\Northwin
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Northwind.TagHelpers.input.cache
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Northwind.TagHelpers.output.cache
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Northwind.RazorCoreGenerate.cache
+C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Razor\Views\Customer\Register.cshtml.g.cs
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Razor\Views\Home\index.cshtml.g.cs
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Razor\Views\Product\Category.cshtml.g.cs
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Razor\Views\Product\Discount.cshtml.g.cs
@@ -70,4 +76,6 @@ C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Northwind.dll
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\ref\Northwind.dll
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Northwind.pdb
 C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Northwind.genruntimeconfig.cache
-C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Razor\Views\Customer\Register.cshtml.g.cs
+C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Owner\source\repos\Northwind\obj\Debug\net5.0\Razor\Views\Customer\Account.cshtml.g.cs

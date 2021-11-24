@@ -70,3 +70,4 @@ C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Northwind.genruntimecon
 C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Razor\Views\Product\Category.cshtml.g.cs
 C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Razor\Views\Product\Discount.cshtml.g.cs
+C:\Users\Owner\source\repos\Northwind\obj\Release\net5.0\Razor\Views\Customer\Register.cshtml.g.cs

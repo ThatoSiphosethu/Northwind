@@ -15624,13 +15624,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Views\\Custromer\\Register.cshtml",
-      "TargetPath": "Views\\Custromer\\Register.cshtml",
+      "FilePath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Views\\Customer\\Account.cshtml",
+      "TargetPath": "Views\\Customer\\Account.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Views\\Product\\Index.cshtml",
       "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Views\\Account\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15656,6 +15666,11 @@
     {
       "FilePath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Views\\Product\\Category.cshtml",
       "TargetPath": "Views\\Product\\Category.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Views\\Customer\\Register.cshtml",
+      "TargetPath": "Views\\Customer\\Register.cshtml",
       "FileKind": "mvc"
     }
   ],

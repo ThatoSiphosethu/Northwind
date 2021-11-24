@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj": {}
+    "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj": {
+    "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
+        "projectUniqueName": "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
         "projectName": "Northwind",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
+        "projectPath": "c:\\Users\\Owner\\source\\repos\\Northwind\\Northwind.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\source\\repos\\Northwind\\obj\\",
+        "outputPath": "c:\\Users\\Owner\\source\\repos\\Northwind\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.9, )"

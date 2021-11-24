@@ -10,11 +10,15 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Northwind.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Northwind
 {
     public class Startup
     {
+        // this class needs the connection info stored in the 
+        // appsettings.json config file - that's a dependency
+        // with dependency injection we expose the config file to this class
         public IConfiguration Configuration { get; }
         public Startup(IConfiguration configuration)
         {
@@ -25,10 +29,11 @@ namespace Northwind
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<NorthwindContext>(options => options.UseSqlServer(Configuration["Data:Product:ConnectionString"]));
-
+            // this is where we use the config info for our connection string
+            services.AddDbContext<NorthwindContext>(options => options.UseSqlServer(Configuration["Data:Northwind:ConnectionString"]));
+            services.AddDbContext<AppIdentityDbContext>(options => options.UseSqlServer(Configuration["Data:AppIdentity:ConnectionString"]));
+            services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppIdentityDbContext>().AddDefaultTokenProviders();
             services.AddControllersWithViews();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +46,8 @@ namespace Northwind
 
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

@@ -15,7 +15,9 @@ namespace Northwind.Controllers
 
         public IActionResult Category() => View(_NorthwindContext.Categories.OrderBy(b => b.CategoryName));
 
-        public IActionResult Index(int id) => View(_NorthwindContext.Products.Where(p => p.CategoryId == id && p.Discontinued == false).OrderBy(p => p.ProductName));
-
+       public IActionResult Index(int id){
+            ViewBag.id = id;
+            return View(_NorthwindContext.Categories.OrderBy(c => c.CategoryName));
+        }
     }
 }

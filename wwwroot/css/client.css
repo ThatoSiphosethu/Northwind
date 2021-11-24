@@ -76,3 +76,11 @@ a.navbar-brand {
     top: 85px;
     right: 10px;
 }
+
+.discontinued {
+  opacity: .5;
+}
+
+#product_rows tr {
+  cursor: pointer;
+}
